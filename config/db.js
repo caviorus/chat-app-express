@@ -7,6 +7,6 @@ const db = require('knex')({
       password : '',
       database : 'ca'
     }
-  });
+  })
 
 module.exports = db
